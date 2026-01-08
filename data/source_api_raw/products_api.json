@@ -1,0 +1,911 @@
+[
+  {
+    "product_id": "P031",
+    "product_name": "Movement While Max",
+    "category": "Sports",
+    "brand": "Harrell LLC",
+    "price": 201.3,
+    "rating": 2.9,
+    "stock_level": 281.0
+  },
+  {
+    "product_id": "P068",
+    "product_name": "Upon Authority Lite",
+    "category": "Beauty",
+    "brand": "Wood and Sons",
+    "price": NaN,
+    "rating": 2.3,
+    "stock_level": 66.0
+  },
+  {
+    "product_id": "P063",
+    "product_name": "Other Necessary Pro",
+    "category": "Sports",
+    "brand": "Donovan-Harris",
+    "price": 1005.12,
+    "rating": 3.2,
+    "stock_level": 477.0
+  },
+  {
+    "product_id": "P048",
+    "product_name": "Report Ready Pro",
+    "category": "Beauty",
+    "brand": "Garcia, Powell and Morgan",
+    "price": 255.31,
+    "rating": 1.0,
+    "stock_level": 199.0
+  },
+  {
+    "product_id": "P043",
+    "product_name": "Drop Author Max",
+    "category": "Electronics",
+    "brand": "Heath Inc",
+    "price": 295.47,
+    "rating": 3.1,
+    "stock_level": 71.0
+  },
+  {
+    "product_id": "P041",
+    "product_name": "End Down v2",
+    "category": "Beauty",
+    "brand": "Morgan PLC",
+    "price": 1297.12,
+    "rating": 1.2,
+    "stock_level": 334.0
+  },
+  {
+    "product_id": "P091",
+    "product_name": "Family Have Lite",
+    "category": "Fashion",
+    "brand": "Hicks, Frazier and Anthony",
+    "price": 615.05,
+    "rating": 4.3,
+    "stock_level": 155.0
+  },
+  {
+    "product_id": "P046",
+    "product_name": "Investment Customer Pro",
+    "category": "Electronics",
+    "brand": "Davis Group",
+    "price": 1453.8,
+    "rating": 4.7,
+    "stock_level": 434.0
+  },
+  {
+    "product_id": "P011",
+    "product_name": "Finally Themselves v2",
+    "category": "Electronics",
+    "brand": "Montgomery, Hensley and Ray",
+    "price": 424.18,
+    "rating": 3.5,
+    "stock_level": 186.0
+  },
+  {
+    "product_id": "P001",
+    "product_name": "Purpose Brother Pro",
+    "category": "Electronics",
+    "brand": "Figueroa and Sons",
+    "price": 1114.91,
+    "rating": 2.0,
+    "stock_level": 71.0
+  },
+  {
+    "product_id": "P019",
+    "product_name": "Institution Executive Lite",
+    "category": "Sports",
+    "brand": "Clark PLC",
+    "price": 1123.05,
+    "rating": 2.7,
+    "stock_level": 298.0
+  },
+  {
+    "product_id": "P032",
+    "product_name": "Thought Purpose Lite",
+    "category": "Fashion",
+    "brand": "Lynch, Hernandez and Farmer",
+    "price": 796.23,
+    "rating": 3.4,
+    "stock_level": NaN
+  },
+  {
+    "product_id": "P098",
+    "product_name": "Give Price Max",
+    "category": "Beauty",
+    "brand": "Alvarado-Martinez",
+    "price": 1080.34,
+    "rating": 2.5,
+    "stock_level": 204.0
+  },
+  {
+    "product_id": "P086",
+    "product_name": "Talk Energy v2",
+    "category": "Electronics",
+    "brand": "Moore-Haynes",
+    "price": 12.52,
+    "rating": 4.7,
+    "stock_level": 275.0
+  },
+  {
+    "product_id": "P077",
+    "product_name": "Color Site Max",
+    "category": NaN,
+    "brand": "Arnold-Patterson",
+    "price": 407.54,
+    "rating": 4.1,
+    "stock_level": 55.0
+  },
+  {
+    "product_id": "P005",
+    "product_name": "Offer Kind Max",
+    "category": "Electronics",
+    "brand": "Cole LLC",
+    "price": 1050.23,
+    "rating": 2.4,
+    "stock_level": 79.0
+  },
+  {
+    "product_id": "P080",
+    "product_name": "Law Care Pro",
+    "category": "Fashion",
+    "brand": "Parker Inc",
+    "price": 993.45,
+    "rating": 2.6,
+    "stock_level": 142.0
+  },
+  {
+    "product_id": "P034",
+    "product_name": "Brother Woman v2",
+    "category": "Home",
+    "brand": "Koch-Decker",
+    "price": 1350.42,
+    "rating": 2.8,
+    "stock_level": NaN
+  },
+  {
+    "product_id": "P013",
+    "product_name": "Base Top Max",
+    "category": "Electronics",
+    "brand": "Delacruz Group",
+    "price": 805.87,
+    "rating": 2.0,
+    "stock_level": 236.0
+  },
+  {
+    "product_id": "P027",
+    "product_name": "Newspaper Enter Max",
+    "category": "Home",
+    "brand": "Valencia, Smith and Le",
+    "price": 237.73,
+    "rating": 4.1,
+    "stock_level": 276.0
+  },
+  {
+    "product_id": "P052",
+    "product_name": "Billion Apply Max",
+    "category": "Beauty",
+    "brand": "Kidd, Huff and Novak",
+    "price": 94.75,
+    "rating": 3.0,
+    "stock_level": 435.0
+  },
+  {
+    "product_id": "P054",
+    "product_name": "Medical Different Pro",
+    "category": "Beauty",
+    "brand": "Barrera-Martin",
+    "price": 1412.98,
+    "rating": 3.3,
+    "stock_level": 296.0
+  },
+  {
+    "product_id": "P023",
+    "product_name": "Past Inside Lite",
+    "category": "Beauty",
+    "brand": "Robinson-Bright",
+    "price": 1456.91,
+    "rating": 4.4,
+    "stock_level": 5.0
+  },
+  {
+    "product_id": "P069",
+    "product_name": "Left These Max",
+    "category": "Home",
+    "brand": "Warner, Carr and Archer",
+    "price": 1114.43,
+    "rating": 3.2,
+    "stock_level": 218.0
+  },
+  {
+    "product_id": "P045",
+    "product_name": "Cause Several v2",
+    "category": "Electronics",
+    "brand": "Johnston, Sanchez and Kennedy",
+    "price": 1213.95,
+    "rating": 4.4,
+    "stock_level": 50.0
+  },
+  {
+    "product_id": "P099",
+    "product_name": "We First Max",
+    "category": "Fashion",
+    "brand": "Parker, Ortiz and Powell",
+    "price": 987.53,
+    "rating": 1.0,
+    "stock_level": 384.0
+  },
+  {
+    "product_id": "P016",
+    "product_name": "Congress None Lite",
+    "category": "Electronics",
+    "brand": NaN,
+    "price": 607.74,
+    "rating": 1.3,
+    "stock_level": 467.0
+  },
+  {
+    "product_id": "P074",
+    "product_name": "Mouth Middle v2",
+    "category": "Home",
+    "brand": "Whitehead-Mathis",
+    "price": 1461.02,
+    "rating": 4.0,
+    "stock_level": 473.0
+  },
+  {
+    "product_id": "P040",
+    "product_name": "Inside Remain Pro",
+    "category": "Fashion",
+    "brand": "Brooks, Lam and Hayes",
+    "price": 154.43,
+    "rating": 2.7,
+    "stock_level": 216.0
+  },
+  {
+    "product_id": "P010",
+    "product_name": "Show Machine Lite",
+    "category": "Fashion",
+    "brand": "Martinez, Nielsen and Miller",
+    "price": 1477.98,
+    "rating": 4.4,
+    "stock_level": 443.0
+  },
+  {
+    "product_id": "P085",
+    "product_name": "Stay Word Pro",
+    "category": "Sports",
+    "brand": "Pham-Shields",
+    "price": 583.94,
+    "rating": 3.3,
+    "stock_level": 130.0
+  },
+  {
+    "product_id": "P012",
+    "product_name": "Sea Available Lite",
+    "category": "Fashion",
+    "brand": "Stanley LLC",
+    "price": 539.35,
+    "rating": 3.7,
+    "stock_level": 359.0
+  },
+  {
+    "product_id": "P052",
+    "product_name": "Billion Apply Max",
+    "category": "Beauty",
+    "brand": "Kidd, Huff and Novak",
+    "price": 94.75,
+    "rating": 3.0,
+    "stock_level": 435.0
+  },
+  {
+    "product_id": "P056",
+    "product_name": "Feeling Land Lite",
+    "category": "Sports",
+    "brand": "Bernard, Cowan and Peters",
+    "price": 1402.71,
+    "rating": 1.8,
+    "stock_level": 366.0
+  },
+  {
+    "product_id": "P029",
+    "product_name": "Finally Learn Lite",
+    "category": "Home",
+    "brand": "Chavez Ltd",
+    "price": 366.78,
+    "rating": 2.0,
+    "stock_level": 290.0
+  },
+  {
+    "product_id": "P065",
+    "product_name": "Remain Quite Max",
+    "category": "Sports",
+    "brand": "Bryant-Hickman",
+    "price": 415.8,
+    "rating": 3.4,
+    "stock_level": 367.0
+  },
+  {
+    "product_id": "P006",
+    "product_name": "Table True Lite",
+    "category": "Fashion",
+    "brand": "Blake and Sons",
+    "price": 162.29,
+    "rating": 2.5,
+    "stock_level": 183.0
+  },
+  {
+    "product_id": "P079",
+    "product_name": "Well Church Lite",
+    "category": "Beauty",
+    "brand": "Johnson, Wood and Tran",
+    "price": 464.73,
+    "rating": 4.2,
+    "stock_level": NaN
+  },
+  {
+    "product_id": "P066",
+    "product_name": "Would Baby Max",
+    "category": "Home",
+    "brand": "Ellis PLC",
+    "price": 1034.37,
+    "rating": 4.4,
+    "stock_level": 258.0
+  },
+  {
+    "product_id": "P036",
+    "product_name": "Your Bar Max",
+    "category": "Sports",
+    "brand": "Dennis Inc",
+    "price": 20.71,
+    "rating": 3.8,
+    "stock_level": 30.0
+  },
+  {
+    "product_id": "P017",
+    "product_name": "Wish Push Lite",
+    "category": "Sports",
+    "brand": "Hawkins, Cohen and Cameron",
+    "price": 326.81,
+    "rating": 3.0,
+    "stock_level": 452.0
+  },
+  {
+    "product_id": "P092",
+    "product_name": "Glass Wrong Max",
+    "category": "Home",
+    "brand": "Wilson LLC",
+    "price": 650.53,
+    "rating": 3.3,
+    "stock_level": 335.0
+  },
+  {
+    "product_id": "P035",
+    "product_name": "Food Education Pro",
+    "category": "Fashion",
+    "brand": "Allen PLC",
+    "price": 513.75,
+    "rating": 3.4,
+    "stock_level": 117.0
+  },
+  {
+    "product_id": "P008",
+    "product_name": "Source Great v2",
+    "category": "Electronics",
+    "brand": "Davis Inc",
+    "price": 127.41,
+    "rating": 2.2,
+    "stock_level": 321.0
+  },
+  {
+    "product_id": "P044",
+    "product_name": "My Economy Max",
+    "category": "Beauty",
+    "brand": "Caldwell-Lewis",
+    "price": 425.03,
+    "rating": 2.0,
+    "stock_level": 472.0
+  },
+  {
+    "product_id": "P073",
+    "product_name": "Series Gun Lite",
+    "category": "Electronics",
+    "brand": "Watts LLC",
+    "price": 323.01,
+    "rating": 2.0,
+    "stock_level": 52.0
+  },
+  {
+    "product_id": "P028",
+    "product_name": "Rest Value Pro",
+    "category": "Sports",
+    "brand": "Potter, Mack and Peterson",
+    "price": 902.43,
+    "rating": 3.0,
+    "stock_level": 57.0
+  },
+  {
+    "product_id": "P020",
+    "product_name": "Under Serious Lite",
+    "category": "Beauty",
+    "brand": "Lewis-Porter",
+    "price": 336.79,
+    "rating": 5.0,
+    "stock_level": 260.0
+  },
+  {
+    "product_id": "P084",
+    "product_name": "Upon Itself v2",
+    "category": "Electronics",
+    "brand": "White LLC",
+    "price": 525.07,
+    "rating": 4.1,
+    "stock_level": 223.0
+  },
+  {
+    "product_id": "P026",
+    "product_name": "Pick Attack Max",
+    "category": "Home",
+    "brand": "James-Ferrell",
+    "price": 766.45,
+    "rating": 1.4,
+    "stock_level": 320.0
+  },
+  {
+    "product_id": "P078",
+    "product_name": "Act Brother Pro",
+    "category": "Beauty",
+    "brand": "Landry Ltd",
+    "price": 1289.3,
+    "rating": 1.9,
+    "stock_level": 418.0
+  },
+  {
+    "product_id": "P050",
+    "product_name": "List Challenge v2",
+    "category": "Sports",
+    "brand": "White-Ford",
+    "price": 240.65,
+    "rating": 2.2,
+    "stock_level": 495.0
+  },
+  {
+    "product_id": "P014",
+    "product_name": "Fall Long Lite",
+    "category": "Beauty",
+    "brand": "Flowers, Martin and Kelly",
+    "price": 1484.39,
+    "rating": 3.6,
+    "stock_level": 285.0
+  },
+  {
+    "product_id": "P025",
+    "product_name": "Claim Product Max",
+    "category": "Beauty",
+    "brand": "Conner Group",
+    "price": 686.05,
+    "rating": 4.8,
+    "stock_level": 448.0
+  },
+  {
+    "product_id": "P004",
+    "product_name": "Early Mouth v2",
+    "category": "Sports",
+    "brand": "Johnson, Gonzalez and Santos",
+    "price": 338.46,
+    "rating": 3.4,
+    "stock_level": 414.0
+  },
+  {
+    "product_id": "P018",
+    "product_name": "Stand Arrive Max",
+    "category": "Beauty",
+    "brand": "Underwood LLC",
+    "price": 404.67,
+    "rating": 2.0,
+    "stock_level": NaN
+  },
+  {
+    "product_id": "P039",
+    "product_name": "Land Development v2",
+    "category": "Fashion",
+    "brand": "Campos, Vaughn and Marquez",
+    "price": 372.07,
+    "rating": 2.9,
+    "stock_level": 208.0
+  },
+  {
+    "product_id": "P009",
+    "product_name": "Her Throw Lite",
+    "category": "Sports",
+    "brand": "Munoz-Roman",
+    "price": 870.25,
+    "rating": 3.8,
+    "stock_level": 23.0
+  },
+  {
+    "product_id": "P081",
+    "product_name": "Way Help Lite",
+    "category": "Electronics",
+    "brand": "Fleming Ltd",
+    "price": 533.21,
+    "rating": 3.0,
+    "stock_level": 347.0
+  },
+  {
+    "product_id": "P007",
+    "product_name": "Save Knowledge Lite",
+    "category": "Home",
+    "brand": "Ramirez-Lewis",
+    "price": NaN,
+    "rating": 3.9,
+    "stock_level": 274.0
+  },
+  {
+    "product_id": "P067",
+    "product_name": "Black Back Lite",
+    "category": "Beauty",
+    "brand": NaN,
+    "price": 1358.95,
+    "rating": 4.4,
+    "stock_level": 47.0
+  },
+  {
+    "product_id": "P037",
+    "product_name": "Soon No Pro",
+    "category": "Fashion",
+    "brand": "Anderson Group",
+    "price": 1359.08,
+    "rating": 4.4,
+    "stock_level": 36.0
+  },
+  {
+    "product_id": "P090",
+    "product_name": "Inside Get Max",
+    "category": "Home",
+    "brand": "Lin-Rasmussen",
+    "price": 295.84,
+    "rating": 3.7,
+    "stock_level": 194.0
+  },
+  {
+    "product_id": "P057",
+    "product_name": "Serious Message Max",
+    "category": "Home",
+    "brand": "Lee and Sons",
+    "price": 405.77,
+    "rating": 1.5,
+    "stock_level": 330.0
+  },
+  {
+    "product_id": "P096",
+    "product_name": "Nature Wish Max",
+    "category": "Home",
+    "brand": "Mcdaniel, Bentley and Mclaughlin",
+    "price": 1211.78,
+    "rating": 1.6,
+    "stock_level": 23.0
+  },
+  {
+    "product_id": "P055",
+    "product_name": "Able In Pro",
+    "category": "Sports",
+    "brand": "House-Glover",
+    "price": 932.88,
+    "rating": 2.7,
+    "stock_level": NaN
+  },
+  {
+    "product_id": "P051",
+    "product_name": "Two Wind Pro",
+    "category": "Electronics",
+    "brand": "Ramos PLC",
+    "price": 1124.48,
+    "rating": 1.2,
+    "stock_level": 299.0
+  },
+  {
+    "product_id": "P070",
+    "product_name": "Ready Newspaper Pro",
+    "category": "Sports",
+    "brand": "Contreras PLC",
+    "price": 176.69,
+    "rating": 4.8,
+    "stock_level": 353.0
+  },
+  {
+    "product_id": "P047",
+    "product_name": "Health Land Max",
+    "category": "Fashion",
+    "brand": "Owens-Daniel",
+    "price": 615.56,
+    "rating": 2.9,
+    "stock_level": 442.0
+  },
+  {
+    "product_id": "P071",
+    "product_name": "Firm Work Pro",
+    "category": "Fashion",
+    "brand": NaN,
+    "price": 1253.55,
+    "rating": 3.3,
+    "stock_level": 75.0
+  },
+  {
+    "product_id": "P062",
+    "product_name": "Employee Particular Lite",
+    "category": "Sports",
+    "brand": "Williams, Miller and Sandoval",
+    "price": 921.4,
+    "rating": 4.9,
+    "stock_level": 334.0
+  },
+  {
+    "product_id": "P100",
+    "product_name": "Find Once v2",
+    "category": "Electronics",
+    "brand": "Lee Ltd",
+    "price": 336.07,
+    "rating": 4.2,
+    "stock_level": 356.0
+  },
+  {
+    "product_id": "P082",
+    "product_name": "Board Health Lite",
+    "category": "Sports",
+    "brand": "Invalid_Data",
+    "price": 1409.46,
+    "rating": 1.5,
+    "stock_level": 496.0
+  },
+  {
+    "product_id": "P042",
+    "product_name": "Once Drug Pro",
+    "category": "Electronics",
+    "brand": "Robinson, Jones and Welch",
+    "price": 609.91,
+    "rating": 2.4,
+    "stock_level": 441.0
+  },
+  {
+    "product_id": "P059",
+    "product_name": "Pattern Me v2",
+    "category": "Electronics",
+    "brand": "Calhoun, Schmidt and Brown",
+    "price": 935.53,
+    "rating": 3.3,
+    "stock_level": 51.0
+  },
+  {
+    "product_id": "P049",
+    "product_name": "Training Boy v2",
+    "category": "Home",
+    "brand": "Lee PLC",
+    "price": 435.02,
+    "rating": 3.8,
+    "stock_level": 374.0
+  },
+  {
+    "product_id": "P089",
+    "product_name": "Try Drive Lite",
+    "category": "Home",
+    "brand": "Johnson and Sons",
+    "price": 1003.67,
+    "rating": 2.3,
+    "stock_level": 356.0
+  },
+  {
+    "product_id": "P058",
+    "product_name": "Article Particularly v2",
+    "category": "Home",
+    "brand": "Daniels, Adkins and Brown",
+    "price": 481.1,
+    "rating": 4.0,
+    "stock_level": 37.0
+  },
+  {
+    "product_id": "P076",
+    "product_name": "Goal Spend Pro",
+    "category": "Beauty",
+    "brand": "Walsh LLC",
+    "price": 277.25,
+    "rating": 4.7,
+    "stock_level": 400.0
+  },
+  {
+    "product_id": "P033",
+    "product_name": "Notice Start Max",
+    "category": "Fashion",
+    "brand": "Sellers, George and Burns",
+    "price": 1072.29,
+    "rating": 2.6,
+    "stock_level": 343.0
+  },
+  {
+    "product_id": "P097",
+    "product_name": "Debate Himself v2",
+    "category": "Fashion",
+    "brand": NaN,
+    "price": 920.8,
+    "rating": 4.1,
+    "stock_level": 233.0
+  },
+  {
+    "product_id": "P060",
+    "product_name": "Movie Be Max",
+    "category": "Electronics",
+    "brand": "Jones Inc",
+    "price": 763.77,
+    "rating": NaN,
+    "stock_level": 178.0
+  },
+  {
+    "product_id": "P064",
+    "product_name": "Sense Former Max",
+    "category": "Electronics",
+    "brand": "Baker and Sons",
+    "price": 404.05,
+    "rating": 4.6,
+    "stock_level": 380.0
+  },
+  {
+    "product_id": "P095",
+    "product_name": "Business Image Lite",
+    "category": "Sports",
+    "brand": "Lee, Williams and Graham",
+    "price": 149.15,
+    "rating": 4.8,
+    "stock_level": 120.0
+  },
+  {
+    "product_id": "P038",
+    "product_name": "Your Often Max",
+    "category": "Sports",
+    "brand": "Baker PLC",
+    "price": 424.93,
+    "rating": 2.9,
+    "stock_level": 276.0
+  },
+  {
+    "product_id": "P030",
+    "product_name": "Type Serve Pro",
+    "category": "Electronics",
+    "brand": "Stanton-Gill",
+    "price": 1100.54,
+    "rating": 4.3,
+    "stock_level": 500.0
+  },
+  {
+    "product_id": "P002",
+    "product_name": "Dog Chair Pro",
+    "category": "Electronics",
+    "brand": "Garcia, Yang and Gardner",
+    "price": 889.83,
+    "rating": 1.1,
+    "stock_level": 47.0
+  },
+  {
+    "product_id": "P053",
+    "product_name": "With Some Pro",
+    "category": "Fashion",
+    "brand": "Martin Group",
+    "price": 896.6,
+    "rating": 3.7,
+    "stock_level": 120.0
+  },
+  {
+    "product_id": "P022",
+    "product_name": "Option Nothing v2",
+    "category": "Fashion",
+    "brand": "Burgess-Patterson",
+    "price": 898.65,
+    "rating": 2.5,
+    "stock_level": 305.0
+  },
+  {
+    "product_id": "P003",
+    "product_name": "Performance Knowledge Max",
+    "category": "Fashion",
+    "brand": "Johnson and Sons",
+    "price": 762.98,
+    "rating": 1.1,
+    "stock_level": 101.0
+  },
+  {
+    "product_id": "P024",
+    "product_name": "Mr Minute Lite",
+    "category": "Electronics",
+    "brand": "Campos Inc",
+    "price": 1155.21,
+    "rating": 2.4,
+    "stock_level": 150.0
+  },
+  {
+    "product_id": "P088",
+    "product_name": "Decision Technology Lite",
+    "category": "Home",
+    "brand": "Bailey-Hoover",
+    "price": 998.45,
+    "rating": 1.5,
+    "stock_level": 460.0
+  },
+  {
+    "product_id": "P094",
+    "product_name": "Hair Shoulder Max",
+    "category": "Beauty",
+    "brand": "Graham-Joyce",
+    "price": 991.69,
+    "rating": 2.1,
+    "stock_level": 339.0
+  },
+  {
+    "product_id": "P075",
+    "product_name": "Best Protect Max",
+    "category": "Fashion",
+    "brand": "Calderon-Williams",
+    "price": 1464.55,
+    "rating": 4.2,
+    "stock_level": 451.0
+  },
+  {
+    "product_id": "P087",
+    "product_name": "Idea Turn Lite",
+    "category": "Fashion",
+    "brand": "Garrison and Sons",
+    "price": 652.63,
+    "rating": 4.8,
+    "stock_level": 471.0
+  },
+  {
+    "product_id": "P083",
+    "product_name": "Clear Wish Max",
+    "category": "Home",
+    "brand": "Hancock and Sons",
+    "price": 875.08,
+    "rating": 4.9,
+    "stock_level": 19.0
+  },
+  {
+    "product_id": "P021",
+    "product_name": "Usually Who Pro",
+    "category": "Beauty",
+    "brand": "Ellis, Baker and Wright",
+    "price": 1136.12,
+    "rating": NaN,
+    "stock_level": 78.0
+  },
+  {
+    "product_id": "P061",
+    "product_name": "Republican Training Max",
+    "category": "Electronics",
+    "brand": NaN,
+    "price": 560.6,
+    "rating": 1.6,
+    "stock_level": 426.0
+  },
+  {
+    "product_id": "P072",
+    "product_name": "Voice Both Max",
+    "category": "Beauty",
+    "brand": "Tran, Nelson and Jacobs",
+    "price": 72.32,
+    "rating": 2.5,
+    "stock_level": 477.0
+  },
+  {
+    "product_id": "P015",
+    "product_name": "Religious Example Lite",
+    "category": "Fashion",
+    "brand": "Zuniga, Wong and Lynch",
+    "price": 1265.85,
+    "rating": 4.1,
+    "stock_level": 117.0
+  },
+  {
+    "product_id": "P093",
+    "product_name": "Could Partner v2",
+    "category": "Home",
+    "brand": "Johnson-Carlson",
+    "price": NaN,
+    "rating": 3.7,
+    "stock_level": 261.0
+  }
+]
