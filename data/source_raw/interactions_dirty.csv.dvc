@@ -1,0 +1,5 @@
+outs:
+- md5: b5985396547a662e9250a5ca58519a90
+  size: 7151850
+  hash: md5
+  path: interactions_dirty.csv

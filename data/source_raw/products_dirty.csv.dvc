@@ -1,0 +1,5 @@
+outs:
+- md5: 6f75947b73125a14166006737c3c7763
+  size: 6363
+  hash: md5
+  path: products_dirty.csv
