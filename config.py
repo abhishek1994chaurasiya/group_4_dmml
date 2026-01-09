@@ -6,7 +6,10 @@ DATA_DIR = BASE_DIR / "data"
 LAKE_DIR = DATA_DIR / "datalake"
 RAW_API_DIR = DATA_DIR / "source_api_raw/"
 RAW_SOURCE_DIR = DATA_DIR / "source_raw/"
-PRODUCT_DIR= LAKE_DIR / "products/"
+PRODUCT_DIR= LAKE_DIR / "preprocessed" / "products/"
+USER_INTERACTION_DIR = LAKE_DIR / "preprocessed" / "interaction/"
+USERS_DIR = LAKE_DIR / "preprocessed" / "users/"
+REPORT_DIR = DATA_DIR / "analytics/"
 
 #API 
 PRODUCT_SOURCE_API_URL = "http://127.0.0.1:9000/products"

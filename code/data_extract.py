@@ -6,7 +6,7 @@ import sys
 sys.path = [
   "/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml",
 ]
-from config import LAKE_DIR, RAW_SOURCE_DIR
+from config import RAW_SOURCE_DIR, USER_INTERACTION_DIR, USERS_DIR
 
 def run_ingestion():
     """Function to be called by Airflow PythonOperator"""
@@ -28,8 +28,8 @@ def run_ingestion():
     month = datetime.now().strftime("%m")
     day = datetime.now().strftime("%d")
 
-    interaction_full_path = LAKE_DIR / "interaction" / f"year={year}" / f"month={month}" / f"day={day}" / interaction_file_name
-    user_full_path = LAKE_DIR / "users" / f"year={year}" / f"month={month}" / f"day={day}" / user_file_name
+    interaction_full_path = USER_INTERACTION_DIR / f"year={year}" / f"month={month}" / f"day={day}" / interaction_file_name
+    user_full_path = USERS_DIR / f"year={year}" / f"month={month}" / f"day={day}" / user_file_name
     interaction_full_path.parent.mkdir(parents=True, exist_ok=True)
     user_full_path.parent.mkdir(parents=True, exist_ok=True)
 
