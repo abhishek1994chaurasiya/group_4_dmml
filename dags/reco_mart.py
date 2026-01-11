@@ -91,8 +91,13 @@ with DAG(
         task_id="csv_data_extract",
         bash_command="python "+code_path+"data_extract.py",
     )
+    data_validation_profiling = BashOperator(
+        task_id="data_validation_interaction_data",
+        bash_command="python "+code_path+"data_validation.py",
+    )
 
-    ingest = ingestion_group >> [api_extract, csv_extract]
+
+    ingest = ingestion_group >> [api_extract, csv_extract] >> data_validation_profiling
 
 
 
