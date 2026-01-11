@@ -1,0 +1,542 @@
+{
+  "success": false,
+  "results": [
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "rating",
+          "min_value": 1.0,
+          "max_value": 5.0,
+          "batch_id": "pandas-pd dataframe asset"
+        },
+        "meta": {},
+        "id": "bed253ef-b03b-4acc-8f9b-f6808d0e0f9d",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "MetricConfigurationID(metric_name='column_values.between.condition', metric_domain_kwargs_id='acbece72f38d6d6d398c7e500624db6d', metric_value_kwargs_id='6fe0c40b7d064b20298a5bbafb5b5929')": {
+          "exception_traceback": "Traceback (most recent call last):\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/execution_engine/execution_engine.py\", line 577, in _process_direct_and_bundled_metric_computation_configurations\n    metric_computation_configuration.metric_fn(  # type: ignore[misc] # F not callable\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/expectations/metrics/metric_provider.py\", line 99, in inner_func\n    return metric_fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/expectations/metrics/map_metric_provider/column_condition_partial.py\", line 117, in inner_func\n    meets_expectation_series = metric_fn(\n                               ^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/expectations/metrics/column_map_metrics/column_values_between.py\", line 127, in _pandas\n    return temp_column.map(is_between)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/pandas/core/series.py\", line 4719, in map\n    new_values = self._map_values(arg, na_action=na_action)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/pandas/core/base.py\", line 925, in _map_values\n    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/pandas/core/algorithms.py\", line 1743, in map_array\n    return lib.map_infer(values, mapper, convert=convert)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/lib.pyx\", line 2999, in pandas._libs.lib.map_infer\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/expectations/metrics/column_map_metrics/column_values_between.py\", line 83, in is_between\n    raise TypeError(  # noqa: TRY003 # FIXME CoP\nTypeError: Column values, min_value, and max_value must either be None or of the same type.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/validator/validation_graph.py\", line 290, in _resolve\n    self._execution_engine.resolve_metrics(\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/execution_engine/execution_engine.py\", line 294, in resolve_metrics\n    return self._process_direct_and_bundled_metric_computation_configurations(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/execution_engine/execution_engine.py\", line 582, in _process_direct_and_bundled_metric_computation_configurations\n    raise gx_exceptions.MetricResolutionError(\ngreat_expectations.exceptions.exceptions.MetricResolutionError: Column values, min_value, and max_value must either be None or of the same type.\n",
+          "exception_message": "Column values, min_value, and max_value must either be None or of the same type.",
+          "raised_exception": true
+        }
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "session_duration_sec",
+          "min_value": 0.0,
+          "max_value": 3600.0,
+          "batch_id": "pandas-pd dataframe asset"
+        },
+        "meta": {},
+        "id": "98f664b0-2b8b-430c-8b87-29c51fd3db96",
+        "severity": "critical"
+      },
+      "result": {},
+      "meta": {},
+      "exception_info": {
+        "MetricConfigurationID(metric_name='column_values.between.condition', metric_domain_kwargs_id='4642429d47923971d62949c4c59e8add', metric_value_kwargs_id='dc36e9fb130186f2d1c8d8ff85211374')": {
+          "exception_traceback": "Traceback (most recent call last):\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/execution_engine/execution_engine.py\", line 577, in _process_direct_and_bundled_metric_computation_configurations\n    metric_computation_configuration.metric_fn(  # type: ignore[misc] # F not callable\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/expectations/metrics/metric_provider.py\", line 99, in inner_func\n    return metric_fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/expectations/metrics/map_metric_provider/column_condition_partial.py\", line 117, in inner_func\n    meets_expectation_series = metric_fn(\n                               ^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/expectations/metrics/column_map_metrics/column_values_between.py\", line 127, in _pandas\n    return temp_column.map(is_between)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/pandas/core/series.py\", line 4719, in map\n    new_values = self._map_values(arg, na_action=na_action)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/pandas/core/base.py\", line 925, in _map_values\n    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/pandas/core/algorithms.py\", line 1743, in map_array\n    return lib.map_infer(values, mapper, convert=convert)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"pandas/_libs/lib.pyx\", line 2999, in pandas._libs.lib.map_infer\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/expectations/metrics/column_map_metrics/column_values_between.py\", line 83, in is_between\n    raise TypeError(  # noqa: TRY003 # FIXME CoP\nTypeError: Column values, min_value, and max_value must either be None or of the same type.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/validator/validation_graph.py\", line 290, in _resolve\n    self._execution_engine.resolve_metrics(\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/execution_engine/execution_engine.py\", line 294, in resolve_metrics\n    return self._process_direct_and_bundled_metric_computation_configurations(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml/venv_dmml/lib/python3.12/site-packages/great_expectations/execution_engine/execution_engine.py\", line 582, in _process_direct_and_bundled_metric_computation_configurations\n    raise gx_exceptions.MetricResolutionError(\ngreat_expectations.exceptions.exceptions.MetricResolutionError: Column values, min_value, and max_value must either be None or of the same type.\n",
+          "exception_message": "Column values, min_value, and max_value must either be None or of the same type.",
+          "raised_exception": true
+        }
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_table_columns_to_match_set",
+        "kwargs": {
+          "batch_id": "pandas-pd dataframe asset",
+          "column_set": [
+            "interaction_id",
+            "user_id",
+            "product_id",
+            "action",
+            "rating",
+            "timestamp",
+            "device",
+            "session_duration_sec"
+          ]
+        },
+        "meta": {},
+        "id": "3a3b407d-8ed6-4085-a7b5-bd29624395b2",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": [
+          "action",
+          "device",
+          "interaction_id",
+          "product_id",
+          "rating",
+          "session_duration_sec",
+          "timestamp",
+          "user_id"
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+          "batch_id": "pandas-pd dataframe asset",
+          "min_value": 1000,
+          "max_value": 1000000
+        },
+        "meta": {},
+        "id": "e4c80339-593f-43e3-9042-325b5aa3772f",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": 101250
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_select_column_values_to_be_unique_within_record",
+        "kwargs": {
+          "batch_id": "pandas-pd dataframe asset",
+          "column_list": [
+            "interaction_id",
+            "user_id",
+            "product_id",
+            "timestamp"
+          ]
+        },
+        "meta": {},
+        "id": "efa4ec74-42e0-43e5-8e2c-19e5d1ee5bfe",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 101250,
+        "unexpected_count": 360,
+        "unexpected_percent": 0.35555555555555557,
+        "partial_unexpected_list": [
+          {
+            "interaction_id": null,
+            "user_id": "U02943",
+            "product_id": null,
+            "timestamp": "2025-10-15 21:34:39.342041"
+          },
+          {
+            "interaction_id": "INT00056311",
+            "user_id": null,
+            "product_id": null,
+            "timestamp": "2025-12-02 13:41:56.342041"
+          },
+          {
+            "interaction_id": null,
+            "user_id": "U02390",
+            "product_id": null,
+            "timestamp": "2025-11-18 16:08:00.342041"
+          },
+          {
+            "interaction_id": null,
+            "user_id": "U01632",
+            "product_id": "P098",
+            "timestamp": null
+          },
+          {
+            "interaction_id": "INT00010154",
+            "user_id": null,
+            "product_id": "P075",
+            "timestamp": null
+          },
+          {
+            "interaction_id": null,
+            "user_id": null,
+            "product_id": "P057",
+            "timestamp": "2025-12-02 00:20:17.342041"
+          },
+          {
+            "interaction_id": null,
+            "user_id": "U01678",
+            "product_id": "P027",
+            "timestamp": null
+          },
+          {
+            "interaction_id": null,
+            "user_id": "U01912",
+            "product_id": null,
+            "timestamp": "2025-12-22 06:08:21.342041"
+          },
+          {
+            "interaction_id": null,
+            "user_id": "U02276",
+            "product_id": null,
+            "timestamp": "2025-11-17 04:57:57.342041"
+          },
+          {
+            "interaction_id": "INT00002726",
+            "user_id": null,
+            "product_id": null,
+            "timestamp": "2025-10-15 07:05:01.342041"
+          },
+          {
+            "interaction_id": "INT00031208",
+            "user_id": null,
+            "product_id": "P010",
+            "timestamp": null
+          },
+          {
+            "interaction_id": null,
+            "user_id": null,
+            "product_id": "P095",
+            "timestamp": "2025-12-29 13:12:38.342041"
+          },
+          {
+            "interaction_id": "INT00029242",
+            "user_id": null,
+            "product_id": null,
+            "timestamp": "2025-11-08 05:34:12.342041"
+          },
+          {
+            "interaction_id": "INT00067932",
+            "user_id": null,
+            "product_id": "P061",
+            "timestamp": null
+          },
+          {
+            "interaction_id": "INT00006770",
+            "user_id": null,
+            "product_id": "P067",
+            "timestamp": null
+          },
+          {
+            "interaction_id": null,
+            "user_id": "U04767",
+            "product_id": "P075",
+            "timestamp": null
+          },
+          {
+            "interaction_id": null,
+            "user_id": null,
+            "product_id": "P065",
+            "timestamp": "2025-11-12 11:54:45.342041"
+          },
+          {
+            "interaction_id": "INT00057354",
+            "user_id": null,
+            "product_id": null,
+            "timestamp": "2025-12-03 13:12:27.342041"
+          },
+          {
+            "interaction_id": "INT00076238",
+            "user_id": "U04561",
+            "product_id": null,
+            "timestamp": null
+          },
+          {
+            "interaction_id": null,
+            "user_id": null,
+            "product_id": "P090",
+            "timestamp": "2025-10-29 14:59:35.342041"
+          }
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.35555555555555557,
+        "unexpected_percent_nonmissing": 0.35555555555555557,
+        "partial_unexpected_index_list": [
+          324,
+          398,
+          800,
+          1145,
+          1721,
+          1865,
+          1993,
+          3003,
+          3201,
+          3635,
+          3693,
+          3775,
+          4197,
+          4303,
+          4440,
+          5121,
+          5185,
+          5497,
+          5950,
+          6386
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "pandas-pd dataframe asset",
+          "column": "interaction_id"
+        },
+        "meta": {},
+        "id": "815f4db6-5493-47a7-ad9d-b686df2c5346",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 101250,
+        "unexpected_count": 2527,
+        "unexpected_percent": 2.4958024691358025,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          160,
+          199,
+          209,
+          324,
+          401,
+          412,
+          518,
+          582,
+          588,
+          710,
+          748,
+          773,
+          774,
+          800,
+          862,
+          871,
+          874,
+          969,
+          980,
+          988
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "pandas-pd dataframe asset",
+          "column": "user_id"
+        },
+        "meta": {},
+        "id": "e8036fc9-4498-4dc1-921d-0144168b42b0",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 101250,
+        "unexpected_count": 2493,
+        "unexpected_percent": 2.462222222222222,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          51,
+          72,
+          103,
+          112,
+          126,
+          162,
+          177,
+          204,
+          260,
+          398,
+          402,
+          416,
+          436,
+          475,
+          509,
+          584,
+          596,
+          725,
+          788,
+          1053
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "pandas-pd dataframe asset",
+          "column": "product_id"
+        },
+        "meta": {},
+        "id": "f26be53f-40ff-47ca-a221-34986e72da07",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 101250,
+        "unexpected_count": 2497,
+        "unexpected_percent": 2.466172839506173,
+        "partial_unexpected_list": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "partial_unexpected_counts": [
+          {
+            "value": null,
+            "count": 20
+          }
+        ],
+        "partial_unexpected_index_list": [
+          39,
+          67,
+          90,
+          137,
+          176,
+          270,
+          324,
+          334,
+          372,
+          398,
+          411,
+          574,
+          787,
+          800,
+          803,
+          817,
+          818,
+          819,
+          842,
+          894
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "interaction_expectation_suite",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 8,
+    "successful_expectations": 2,
+    "unsuccessful_expectations": 6,
+    "success_percent": 25.0
+  },
+  "meta": {
+    "great_expectations_version": "1.10.0",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260111T135231.894281Z",
+      "pandas_data_fingerprint": "00aecf80f528b9f95d3fa375df960ec1"
+    },
+    "active_batch_definition": {
+      "datasource_name": "pandas",
+      "data_connector_name": "fluent",
+      "data_asset_name": "pd dataframe asset",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    }
+  },
+  "id": null
+}
