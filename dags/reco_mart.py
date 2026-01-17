@@ -95,9 +95,14 @@ with DAG(
         task_id="data_validation_interaction_data",
         bash_command="python "+code_path+"data_validation.py",
     )
+    feature_engineering = BashOperator(
+        task_id="feature_engineering",
+        bash_command="bash "+code_path+"06_FE_and_transformation.sh",
+    )
 
 
     ingest = ingestion_group >> [api_extract, csv_extract] >> data_validation_profiling
+    data_validation_profiling >> feature_engineering
 
 
 
