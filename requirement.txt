@@ -1,2 +1,3 @@
 great-expectations
 apache-airflow==3.1.5
+pyspark

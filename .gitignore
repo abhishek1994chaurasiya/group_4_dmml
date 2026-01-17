@@ -1,2 +1,7 @@
 venv_dmml
 logs
+code/metastore_db/
+metastore_db
+__pycache__
+spark-warehouse/
+*.pyc
