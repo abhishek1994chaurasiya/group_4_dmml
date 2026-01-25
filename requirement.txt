@@ -1,3 +1,9 @@
 great-expectations
 apache-airflow==3.1.5
 pyspark
+#feast
+#feast[spark]
+scikit-learn
+seaborn
+matplotlib
+

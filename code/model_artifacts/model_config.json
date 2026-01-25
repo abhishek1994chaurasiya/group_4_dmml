@@ -1,0 +1,30 @@
+{
+    "model_type": "SVD_Collaborative_Filtering",
+    "latent_factors_k": 32,
+    "num_users": 5000,
+    "num_items": 100,
+    "user_to_index_mapping": {
+        "U00001": 0,
+        "U00002": 1,
+        "U00003": 2,
+        "U00004": 3,
+        "U00005": 4,
+        "U00006": 5,
+        "U00007": 6,
+        "U00008": 7,
+        "U00009": 8,
+        "U00010": 9
+    },
+    "item_to_index_mapping": {
+        "P002": 0,
+        "P003": 1,
+        "P009": 2,
+        "P014": 3,
+        "P018": 4,
+        "P019": 5,
+        "P022": 6,
+        "P025": 7,
+        "P037": 8,
+        "P042": 9
+    }
+}

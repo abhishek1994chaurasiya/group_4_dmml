@@ -11,6 +11,10 @@ USER_INTERACTION_DIR = LAKE_DIR / "preprocessed" / "interaction/"
 USERS_DIR = LAKE_DIR / "preprocessed" / "users/"
 ANALYTICS_DIR = LAKE_DIR / "analytics/"
 REPORT_DIR = BASE_DIR / "reports/"
+PROCESSED_REPORT_DIR = LAKE_DIR / "processed/"
+PROCESSED_PRODUCT_DIR = PROCESSED_REPORT_DIR / "products/"
+PROCESSED_INTERACTION_DIR = PROCESSED_REPORT_DIR / "interaction/"
+PROCESSED_USERS_DIR = PROCESSED_REPORT_DIR / "users/"
 
 #API 
 PRODUCT_SOURCE_API_URL = "http://127.0.0.1:9000/products"
