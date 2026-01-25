@@ -6,6 +6,7 @@ cd /home/abhishek/Documents/Study/dmml_assignment/group_4_dmml
 set -x
 
 #execute ddl if table does not exist
+echo "Executing DDL script to create tables if they do not exist"
 spark-sql \
   --packages io.delta:delta-spark_2.12:3.1.0 \
   --conf "spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension" \
@@ -17,6 +18,7 @@ if [ $? -ne 0 ]; then
 fi
 
 #execute feature engineering and transformation
+echo "Executing feature engineering and transformation script"
 spark-sql \
   --packages io.delta:delta-spark_2.12:3.1.0 \
   --conf "spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension" \

@@ -10,7 +10,7 @@ DROP TABLE IF EXISTS user_interactions;
 DROP TABLE IF EXISTS products;
 DROP TABLE IF EXISTS USERS;
 
-CREATE TABLE IF NOT EXISTS user_interactions (
+CREATE EXTERNAL TABLE IF NOT EXISTS user_interactions (
     interaction_id STRING,
     user_id STRING,
     product_id STRING,
@@ -33,7 +33,7 @@ OPTIONS (
 );
 
 
-CREATE TABLE IF NOT EXISTS products (
+CREATE EXTERNAL TABLE IF NOT EXISTS products (
     product_id STRING,
     product_name STRING,
     brand STRING,
@@ -52,7 +52,7 @@ OPTIONS (
     quote '"',
     escape '"'
 );
-CREATE TABLE IF NOT EXISTS USERS (
+CREATE EXTERNAL TABLE IF NOT EXISTS USERS (
     user_id STRING,
     user_name STRING,
     email STRING,

@@ -122,7 +122,9 @@ with DAG(
     )
     feature_engineering = BashOperator(
         task_id="feature_engineering",
-        bash_command="bash "+code_path+"06_FE_and_transformation.sh",
+        bash_command=f"""
+        bash {code_path}06_FE_and_transformation.sh
+        """,
     )
     model_training = PythonOperator(
         task_id="model_training_notebook",
@@ -132,27 +134,3 @@ with DAG(
 
     ingestion_group >> [api_extract, csv_extract] >> data_validation_profiling
     data_validation_profiling >> data_preparation >> feature_engineering >> model_training
-
-
-
-
-
-
-#     transform = PythonOperator(
-#         task_id="transform_data",
-#         python_callable=transform_data,
-#     )
-
-#     train = PythonOperator(
-#         task_id="train_model",
-#         python_callable=train_model,
-#     )
-
-#     ingest >> transform >> train
-
-
-# #Plan schedule 
-# 1. code/rest_api_setup.py : Sets up a FastAPI server to upload and retrieve product data via REST API.
-# 2. code/api_data_extract.py : Fetches product data from the REST API and saves it
-# 3. code/data_extract.py : for interaction and users data into datalake
-# 4. 

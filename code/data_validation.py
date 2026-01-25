@@ -1,3 +1,4 @@
+import glob
 import pandas as pd
 from pathlib import Path
 import sys
@@ -5,15 +6,27 @@ import great_expectations as gx
 sys.path = [
   "/home/abhishek/Documents/Study/dmml_assignment/group_4_dmml",
 ]
-from config import REPORT_DIR
+from config import REPORT_DIR, USER_INTERACTION_DIR
 
 # REPORT_DIR = Path("../data/analytics")
 
 REPORT_DIR.mkdir(parents=True, exist_ok=True)
+from datetime import datetime
+year = datetime.now().strftime("%Y")
+month = datetime.now().strftime("%m")
+day = datetime.now().strftime("%d")
+# day=10
+interaction_search_dir = USER_INTERACTION_DIR / f"year={year}" / f"month={month}" / f"day={day}"
 
-def validate_interactions(csv_path: str):
+def validate_interactions(interaction_search_dir: str):
+    files = list(interaction_search_dir.glob("interactions*.csv"))
+    if not files:
+        raise FileNotFoundError(f"No interaction files found in {interaction_search_dir}")
+    
+    df_list = [pd.read_csv(f) for f in files]
+    df = pd.concat(df_list, ignore_index=True)
+
     context = gx.get_context()
-    df = pd.read_csv(csv_path)
     data_source = context.data_sources.add_pandas("pandas")
     data_asset = data_source.add_dataframe_asset(name="pd dataframe asset")
     batch_definition = data_asset.add_batch_definition_whole_dataframe("batch definition")
@@ -80,5 +93,5 @@ def validate_interactions(csv_path: str):
     
     return report_path
 
-if __name__ == "__main__":
-    validate_interactions("data/datalake/preprocessed/interaction/year=2026/month=01/day=10/interactions_20260110_213116.csv")
+# if __name__ == "__main__":
+#     validate_interactions("data/datalake/preprocessed/interaction/year=2026/month=01/day=10/interactions_20260110_213116.csv")

@@ -39,7 +39,6 @@ def run_ingestion():
 
     return str(interaction_full_path), str(user_full_path)
 
-#test
 if __name__ == "__main__":
     saved_path = run_ingestion()
     print(f"Data saved to: {saved_path}")

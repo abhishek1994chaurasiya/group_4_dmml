@@ -5,3 +5,7 @@ metastore_db
 __pycache__
 spark-warehouse/
 *.pyc
+derby.log
+model_artifacts/
+mlartifacts/
+*.log
