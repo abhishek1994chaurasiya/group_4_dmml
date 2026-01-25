@@ -18,7 +18,7 @@ SELECT
     AVG(rating) AS average_rating
 FROM recomart.user_interactions
 WHERE rating IS NOT NULL
-GROUP BY user_id limit 2;
+GROUP BY user_id;
 
 -- C. Average Rating per Item
 INSERT OVERWRITE item_avg_rating
