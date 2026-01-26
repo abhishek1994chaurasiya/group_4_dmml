@@ -78,22 +78,27 @@ DROP TABLE IF EXISTS user_average_rating;
 DROP TABLE IF EXISTS item_avg_rating;
 DROP TABLE IF EXISTS item_cooccurrence;
 
+--------------------------------TABLE DDL FOR TRANSFORMED FEATURES---------------------------------
+--user activity frequency
 CREATE TABLE user_activity_frequency (
   user_id STRING,
   total_interactions BIGINT NOT NULL)
 USING DELTA;
 
+--average rating per user
 CREATE TABLE user_average_rating (
   user_id STRING,
   average_rating DOUBLE)
 USING DELTA;
 
+--average rating per item
 CREATE TABLE item_avg_rating (
   product_id STRING,
   avg_item_rating DOUBLE,
   rating_count BIGINT NOT NULL)
 USING DELTA;
 
+--co-occurrence / similarity-based features
 CREATE TABLE item_cooccurrence (
     product_id_1 STRING,
     product_id_2 STRING,
