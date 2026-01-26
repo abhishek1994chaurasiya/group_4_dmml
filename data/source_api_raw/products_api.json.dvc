@@ -1,5 +1,5 @@
 outs:
-- md5: 3ec215fe0db3e522f1849d1abcad5976
-  size: 20111
+- md5: f63f416158709f18defacc8e4a9f71d8
+  size: 19835
   hash: md5
   path: products_api.json

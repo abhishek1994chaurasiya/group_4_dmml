@@ -1,6 +1,6 @@
 outs:
-- md5: 2053ca526e1d7d8dab0ed39c8e8453bc.dir
-  size: 7537655
-  nfiles: 3
+- md5: b2e57a4beaa709d9c81653a18932ebe3.dir
+  size: 78696131
+  nfiles: 19
   hash: md5
   path: datalake
